@@ -12,7 +12,16 @@ The raw corpora is colected from a series of supervison documents of a contructi
 
 # KAPPA test
 
-The principles guiding the annotation are in Specification for annotation.docx
+The principles guiding the annotation are in Specification_for_annotation.docx
+
+Kappa test were applied on the corpus, below is the result:
+
+          B     I     O
+      B   2026  119   123
+      I   70    2763  174
+      O   18    46    9874
+
+https://github.com/isotrforever/NER-corpus-for-construction/edit/master/README.md
 
 # About the author
 
