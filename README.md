@@ -8,7 +8,7 @@ The Named Entities are labelled in the "BIO" format.
 
 All the data are in the [Construction-NER-corpus.csv](https://github.com/isotrforever/NER-corpus-for-construction/blob/master/Construction-NER-corpus.csv), where words are listed in the first column, while tags in the sencond.
 
-The raw corpora is colected from a series of supervison documents of a contruction project.
+The raw corpora is collected from a series of supervison documents of a contruction project.
 
 ## KAPPA test
 
