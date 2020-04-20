@@ -1,6 +1,6 @@
 # NER corpus for construction
 
-# Basic information ahout the corpus
+## Basic information ahout the corpus
 
 The corpus contains 759 sentences, 2268 Named Entities, 15213 words and 24839 characters.
 
@@ -10,7 +10,7 @@ All the data are in the Construction-NER-corpus.csv, where words are listed in t
 
 The raw corpora is colected from a series of supervison documents of a contruction project.
 
-# KAPPA test
+## KAPPA test
 
 The principles guiding the annotation are in Specification_for_annotation.docx
 
@@ -21,8 +21,6 @@ Kappa test were applied on the corpus, below is the result:
       I   70    2763  174
       O   18    46    9874
 
-https://github.com/isotrforever/NER-corpus-for-construction/edit/master/README.md
-
-# About the author
+## About the author
 
 If you have any question, please feel free to contact us: qqz@zju.edu.cn
