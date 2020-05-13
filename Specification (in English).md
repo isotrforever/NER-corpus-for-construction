@@ -14,15 +14,15 @@ The "named entity" marked "building parts" can be subdivided into:
   
 ## 2 - Labeling Rules
 
-    （1）Tags "B", "I", and "O" are used to mark the "named entities" in the corpus. **‘B’** stands for the beginning of the named entity, **‘I’** stands for the other parts of the named entity, and **‘O’** stands for the words that do not belong to the “named entity”. The following are examples of annotations:
+   （1）Tags "B", "I", and "O" are used to mark the "named entities" in the corpus. **‘B’** stands for the beginning of the named entity, **‘I’** stands for the other parts of the named entity, and **‘O’** stands for the words that do not belong to the “named entity”. The following are examples of annotations:
     
 ![Examples](https://github.com/isotrforever/NER-corpus-for-construction/blob/master/IFG/Selection_117.png)
     
-    （2）When labeling corpus, the following situation often occurs: "named entities" are arranged consecutively, such as: "the stirrup at the bottom of the 5-layer cantilever beam in Area A" (A区5层悬挑梁底部箍筋), at this time, the string needs to be effectively split into multiple Named entities". The principles of separation are:
+   （2）When labeling corpus, the following situation often occurs: "named entities" are arranged consecutively, such as: "the stirrup at the bottom of the 5-layer cantilever beam in Area A" (A区5层悬挑梁底部箍筋), at this time, the string needs to be effectively split into multiple Named entities". The principles of separation are:
     
-        ①Take the "location" suffix in the table as the split indicator. For example, in the string "hoop stirrups at the bottom of the 5-layer cantilever beam in Area A" (A**区**5**层**悬挑梁**底部**箍筋), the suffixes in the table position are "Area" (区), "Layer"（层） and "Bottom"（底部）, then the phrase should be split into "Area A" (A区), "5-layer"（5层）, "Bottom of cantilever beam"（悬挑梁底部）and "hoop stirrup" （箍筋）.
+      ①Take the "location" suffix in the table as the split indicator. For example, in the string "hoop stirrups at the bottom of the 5-layer cantilever beam in Area A" (A**区**5**层**悬挑梁**底部**箍筋), the suffixes in the table position are "Area" (区), "Layer"（层） and "Bottom"（底部）, then the phrase should be split into "Area A" (A区), "5-layer"（5层）, "Bottom of cantilever beam"（悬挑梁底部）and "hoop stirrup" （箍筋）.
         
-        ②For the case in which there is no suffix in the table position. For example, though "cantilever beam stirrup" (悬挑梁箍筋) can be divided into "cantilever beam" and "stirrup", it should be still treated as a hole named entity.
+      ②For the case in which there is no suffix in the table position. For example, though "cantilever beam stirrup" (悬挑梁箍筋) can be divided into "cantilever beam" and "stirrup", it should be still treated as a hole named entity.
 
 ## 3 - Tricks for Annotation
 
