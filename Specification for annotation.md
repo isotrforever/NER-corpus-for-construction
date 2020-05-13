@@ -1,4 +1,4 @@
-# Specification (the English version)
+# Specification (the English Version)
 
 ## 1 - Definition of "Building Parts"
 
@@ -22,7 +22,7 @@ The "named entity" marked "building parts" can be subdivided into:
         
         ②For the case in which there is no suffix in the table position. For example, though "cantilever beam stirrup" (悬挑梁箍筋) can be divided into "cantilever beam" and "stirrup", it should be still treated as a hole named entity.
 
-## 3 - Tricks for annotation
+## 3 - Tricks for Annotation
 
 Since the number of tags “O” that need to be marked contributes is large, you can mark “B” and “I” only without “O”.
 
