@@ -1,4 +1,4 @@
-# Specification for annotation
+# Specification (the English version)
 
 ## 1 - Definition of "Building Parts"
 
