@@ -16,7 +16,7 @@ The "named entity" marked "building parts" can be subdivided into:
 
     （1）Tags "B", "I", and "O" are used to mark the "named entities" in the corpus. **‘B’** stands for the beginning of the named entity, **‘I’** stands for the other parts of the named entity, and **‘O’** stands for the words that do not belong to the “named entity”. The following are examples of annotations:
     
-    ![-](https://github.com/isotrforever/NER-corpus-for-construction/blob/master/IFG/Selection_117.png)
+    ![](IFG/Selection_117.png)
     
     （2）When labeling corpus, the following situation often occurs: "named entities" are arranged consecutively, such as: "the stirrup at the bottom of the 5-layer cantilever beam in Area A" (A区5层悬挑梁底部箍筋), at this time, the string needs to be effectively split into multiple Named entities". The principles of separation are:
     
